@@ -12,6 +12,7 @@
 		3054F29A1C70302A005E908F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3054F2981C70302A005E908F /* Main.storyboard */; };
 		3054F29C1C70302A005E908F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3054F29B1C70302A005E908F /* Assets.xcassets */; };
 		3054F29F1C70302A005E908F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3054F29D1C70302A005E908F /* LaunchScreen.storyboard */; };
+		3077D57A1C71670E00A63483 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077D5791C71670E00A63483 /* FactModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3054F29B1C70302A005E908F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3054F29E1C70302A005E908F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3054F2A01C70302A005E908F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3077D5791C71670E00A63483 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3054F2941C70302A005E908F /* AppDelegate.swift */,
 				3054F2961C70302A005E908F /* ViewController.swift */,
+				3077D5791C71670E00A63483 /* FactModel.swift */,
 				3054F2981C70302A005E908F /* Main.storyboard */,
 				3054F29B1C70302A005E908F /* Assets.xcassets */,
 				3054F29D1C70302A005E908F /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3077D57A1C71670E00A63483 /* FactModel.swift in Sources */,
 				3054F2971C70302A005E908F /* ViewController.swift in Sources */,
 				3054F2951C70302A005E908F /* AppDelegate.swift in Sources */,
 			);
@@ -251,8 +255,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattjoslin.FunFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattjoslin.FunFacts1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -262,8 +267,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattjoslin.FunFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattjoslin.FunFacts1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -287,6 +293,7 @@
 				3054F2A51C70302A005E908F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
